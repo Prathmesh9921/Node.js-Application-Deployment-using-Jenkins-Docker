@@ -4,9 +4,7 @@
   "description": "Simple Node App",
   "main": "app.js",
   "scripts": {
-    "start": "app.js"
+    "start": "node app.js"
   },
-  "dependencies": {
-    "express": "^4.18.2"
-  }
+  "dependencies": {}
 }
