@@ -1,5 +1,5 @@
 FROM node:18
-WORKDIR /var/lib/jenkins/workspace/node-cicd-docker
+WORKDIR /app
 COPY package*.json ./
 RUN npm install
 EXPOSE 3000
