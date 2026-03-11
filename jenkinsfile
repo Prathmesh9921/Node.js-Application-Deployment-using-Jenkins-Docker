@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('pull') {
             steps {
-                git branch: 'main', url: 'https://github.com/techrohitx/Automated-CI-CD-Pipeline-using-Jenkins-and-Docker.git'
+                git branch: 'main', url: ' https://github.com/Prathmesh9921/Node.js-Application-Deployment-using-Jenkins-Docker.git'
             }
         }
 
